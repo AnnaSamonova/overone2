@@ -2,9 +2,11 @@ package samonova.lessom30;
 
 public class Lesson30 {
     public static void main(String[] args) {
-
+//ссылка на поток, текущий поток
        /* Thread currentThread = Thread.currentThread();
         System.out.println(currentThread);*/ // посмотрели текущий поток
+
+
     /*new MyThread("Первый поток").start();
     new MyThread("Второй поток").start();
     new MyThread("Третий поток").start();

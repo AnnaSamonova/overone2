@@ -10,7 +10,7 @@ public class ExtendsThread extends  Thread {
     public void run() {
 
 
-        for (int i = 1; i <= 8; i++) {
+        for (int i = 1; i <= 3; i++) {
 
             try {
                 Thread.sleep(3000);
@@ -18,7 +18,7 @@ public class ExtendsThread extends  Thread {
                 System.err.println(e);
             }
 
-            System.out.println("name " + this.getName() + " priority " + getPriority() + " number " + i);
+            System.out.println("name " + this.getName() + " priority " + getPriority() + " цикл " + i);
         }
 
     }

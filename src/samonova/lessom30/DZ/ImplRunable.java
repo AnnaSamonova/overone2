@@ -3,7 +3,7 @@ package samonova.lessom30.DZ;
 public class ImplRunable implements Runnable{
     @Override
     public void run() {
-        for (int i = 1; i <=8 ; i++) {
+        for (int i = 1; i <=3 ; i++) {
 
 
     try {
@@ -12,7 +12,7 @@ public class ImplRunable implements Runnable{
         System.err.println(e);
 
     }
-            System.out.println("With help runable" + Thread.currentThread() + " num i " + i);
+            System.out.println("With help runable" + Thread.currentThread() + " цикл i " + i);
     }
 
 }}
