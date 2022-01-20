@@ -13,7 +13,9 @@ public class Lesson30 {
     new MyThread("Четвертый поток").start();*/
 
         /*for (int i = 1; i <= 5; i++) {
-            new MyThread("Поток " + i)
+            new MyThread("Поток " + i).statr;
+            sout
+
 */
 
       //  }
